@@ -1576,7 +1576,7 @@ progress::-webkit-progress-value {
   font-size: 16px;
   color: #fac644;
   padding-right: 18px;
-  background: url(../img/icons/Arrow1.svg) right center no-repeat;
+  background: url(../img/icons/Arrow1.png) right center no-repeat;
 }
 
 .slider__rating {
@@ -1717,15 +1717,15 @@ progress::-webkit-progress-value {
 }
 
 .contacts a:first-child {
-  background: url(../img/icons/email.svg) left center no-repeat;
+  background: url(../img/icons/mail.png) left center no-repeat;
 }
 
 .contacts a:nth-child(2) {
-  background: url(../img/icons/skype.svg) left center no-repeat;
+  background: url(../img/icons/skype.png) left center no-repeat;
 }
 
 .contacts a:last-child {
-  background: url(../img/icons/hon.svg) left center no-repeat;
+  background: url(../img/icons/hon.png) left center no-repeat;
 }
 
 .follow h3 {
@@ -1741,15 +1741,15 @@ progress::-webkit-progress-value {
 }
 
 .follow a:first-child {
-  background: url(/img/icons/social.svg) left center no-repeat;
+  background: url(/img/icons/social1.png) left center no-repeat;
 }
 
 .follow a:nth-child(2) {
-  background: url(/img/icons/social2.svg) left center no-repeat;
+  background: url(/img/icons/social2.png) left center no-repeat;
 }
 
 .follow a:last-child {
-  background: url(/img/icons/social3.svg) left center no-repeat;
+  background: url(/img/icons/social3.png) left center no-repeat;
 }
 
 .choose h3 {
