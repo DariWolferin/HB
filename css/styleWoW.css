@@ -2298,15 +2298,15 @@ progress::-webkit-progress-value {
   }
   .tabs-block__wrap {
     padding: 12px 0 15px 0;
+	  min-height: unset;
   }
   .tabs-block__content {
     display: none;
     position: relative;
-    padding-top: 15px;
   }
   .tabs-block__block {
     display: block;
-    padding: 10px;
+    padding: 0 10px;
   }
   .tabs-block__block_cash {
     position: relative;
@@ -2331,7 +2331,7 @@ progress::-webkit-progress-value {
   .tabs-block__item {
     width: 100%;
     background: inherit;
-    padding: 25px 20px 0px 0;
+   padding: 25px 20px 20px 0;
     text-align: left;
     position: relative;
   }
@@ -2339,8 +2339,8 @@ progress::-webkit-progress-value {
     content: "▴";
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(5%) rotate(90deg);
-            transform: translateY(5%) rotate(90deg);
+    -webkit-transform: translateY(-50%) rotate(90deg);
+            transform: translateY(-50%) rotate(90deg);
     right: 20px;
     color: #e5a21e;
     font-size: 55px;
@@ -2354,7 +2354,7 @@ progress::-webkit-progress-value {
             box-shadow: none;
   }
   .tabs-block__item_cash {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .tabs-block__item._active {
     color: #f3d487;
@@ -2449,6 +2449,9 @@ progress::-webkit-progress-value {
     padding: 2px;
     font-size: 10px;
   }
+	.slider__logo img {
+    max-width: 40px;
+  }
   .rating {
     margin-right: 10px;
   }
@@ -2463,6 +2466,7 @@ progress::-webkit-progress-value {
   }
   .tabs-block__block._active .tabs-block__content {
     display: block;
+	  padding-bottom: 10px;
   }
 }
 
@@ -2482,6 +2486,9 @@ progress::-webkit-progress-value {
   .popup__content {
     padding: 10px;
     max-width: 500px;
+  }
+	.popup__title {
+    margin: 15px 0 40px 0;
   }
   .popup__subtitle {
     margin-bottom: 15px;
