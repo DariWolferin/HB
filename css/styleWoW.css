@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   src: local("☺"), url("../fonts/SPSLOldKingC-Bold.woff") format("woff"), url("../fonts/SPSLOldKingC-Bold.ttf") format("truetype"), url("../fonts/SPSLOldKingC-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal;
+font-display: swap;	
 }
 
 @font-face {
@@ -85,14 +86,16 @@ h1, h2, h3, h4, h5, h6 {
   src: local("☺"), url("../fonts/OldKingC.woff") format("woff"), url("../fonts/OldKingC.ttf") format("truetype"), url("../fonts/OldKingC.svg") format("svg");
   font-weight: normal;
   font-style: normal;
+font-display: swap;
 }
 
 @font-face {
-	font-family: "Sunflower";
-	src: url("../fonts/Sunflowerlight.eot");
-	src: local("☺"), url("../fonts/Sunflowerlight.woff") format("woff"),
+font-family: "Sunflower";
+src: url("../fonts/Sunflowerlight.eot");
+src: local("☺"), url("../fonts/Sunflowerlight.woff") format("woff"),
 		url("../fonts/Sunflowerlight.ttf") format("truetype"), url("../fonts/Sunflowerlight.svg") format("svg");
-	font-weight: 300;
+font-weight: 300;
+font-display: swap;
 }
 
 body {
