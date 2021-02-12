@@ -2125,7 +2125,7 @@ progress::-webkit-progress-value {
     font-size: 21px;
   }
   .item-rev__body {
-    max-width: 87px;
+    max-width: 91px;
   }
   .slider__game {
     top: unset;
@@ -2701,6 +2701,12 @@ progress::-webkit-progress-value {
   .card__options {
     padding: 0px 33px;
   }
+	.card__logo {
+    bottom: 14px;
+  }
+  .card__logo img {
+    width: 40px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -2852,6 +2858,9 @@ progress::-webkit-progress-value {
   }
   .accordeon__title::after {
     right: 0;
+  }
+	 .popup__rating-body {
+    width: 184px;
   }
 }
 
