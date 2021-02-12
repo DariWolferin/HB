@@ -2762,7 +2762,7 @@ progress::-webkit-progress-value {
     height: unset;
   }
   .card__sale {
-    right: 35px;
+   right: 20px;
     font-size: 14px;
     max-width: 50px;
     min-height: 95px;
