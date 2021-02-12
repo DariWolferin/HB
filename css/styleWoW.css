@@ -833,7 +833,7 @@ background: url(../img/bg_sale.png) center / cover no-repeat;
   -webkit-box-shadow: 0px 2px 7px rgba(229, 177, 47, 0.5);
           box-shadow: 0px 2px 7px rgba(229, 177, 47, 0.5);
   background-color: transparent;
-  background-image: url("../img/icons/check.svg");
+ background-image: url("../img/icons/check.png");
 }
 
 .noUi-target {
