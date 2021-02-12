@@ -2122,7 +2122,7 @@ progress::-webkit-progress-value {
     padding: 20px 7px;
   }
   .item-rev__body::before, .item-rev__active::before {
-    font-size: 21px;
+    font-size: 20px;
   }
   .item-rev__body {
     max-width: 91px;
