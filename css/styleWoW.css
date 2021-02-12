@@ -1741,15 +1741,15 @@ progress::-webkit-progress-value {
 }
 
 .follow a:first-child {
-  background: url(/img/icons/social1.png) left center no-repeat;
+  background: url(../img/icons/social1.png) left center no-repeat;
 }
 
 .follow a:nth-child(2) {
-  background: url(/img/icons/social2.png) left center no-repeat;
+  background: url(../img/icons/social2.png) left center no-repeat;
 }
 
 .follow a:last-child {
-  background: url(/img/icons/social3.png) left center no-repeat;
+  background: url(../img/icons/social3.png) left center no-repeat;
 }
 
 .choose h3 {
