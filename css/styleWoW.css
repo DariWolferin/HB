@@ -2761,7 +2761,7 @@ progress::-webkit-progress-value {
     max-width: 50px;
     min-height: 95px;
     padding: 8px 7px;
-    background: url(../img/icons/flag.svg) center/cover no-repeat;
+    background: url(../img/bg_sale.png) center/cover no-repeat;
   }
   .options__form {
     -ms-flex-wrap: wrap;
